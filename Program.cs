@@ -10,6 +10,16 @@ namespace Takrorlash
     {
         static void Main(string[] args)
         {
+            Console.Write("STR1 ni kiriting : ");
+            string s1 = Console.ReadLine();
+
+            Console.Write("STR2 ni kiriting : ");
+            string s2 = Console.ReadLine();
+
+            bool isPresent = s1.Contains(s2);
+            Console.WriteLine(isPresent);
+
+            Console.ReadLine();
         }
     }
 }
